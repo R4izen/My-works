@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #26313b;
+    background-blend-mode: multiply;
+    background-image: url(img/technology-background-1632715.jpg);
+}
+
+header {
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-position: center;
+    z-index: 100000;
+}
+
+header .tmeco {
+    position: relative;
+    color: #85d5dd;
+    font-size: 5em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-right: 5%;
+    letter-spacing: 6px;
+}
+
+header ul {
+    width: 40px;
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    margin: 0 30px;
+    text-decoration: none;
+    color: rgba(174, 198, 217, 0.814);
+    letter-spacing: 4px;
+    font-weight: 900;
+}
+
+.box {
+    border-style: groove;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(113, 120, 132) 97%, rgb(62, 79, 75) 50%, #337aa3 100%);
+    border-color: rgb(132, 148, 158);
+    width: 900px;
+    height: 1400px;
+    margin: auto;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.myprofile {
+    margin: 0px 25px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: #58fff4;
+    height: 400px;
+}
+
+.name {
+    padding-top: 20px;
+    padding-left: 20px;
+    color: rgb(5, 27, 43);
+}
+
+.paragraph {
+    color: #62d2c5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.intro {
+    padding-left: 20px;
+    font-size: 50px;
+}
+
+.intro {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+    color: #2c3c22;
+}
+
+.i {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #aee38b;
+}
+
+.table{
+    font-size:20px;
+    margin: 20px;
+    color: #1d2a1c;
+}
+.page2
+{
+    height: 500px;
+}
+.DOWNLOAD:hover
+{
+    transition: 0.2s;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.DOWNLOAD:active{
+    opacity: 0.2;
+}

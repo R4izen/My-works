@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #26313b;
+    background-blend-mode: multiply;
+    background-image: url(img/technology-background-1632715.jpg);
+}
+
+header {
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-position: center;
+    z-index: 100000;
+}
+
+header .tmeco {
+    position: relative;
+    color: #85d5dd;
+    font-size: 5em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-right: 5%;
+    letter-spacing: 6px;
+}
+
+header ul {
+    width: 40px;
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    margin: 0 30px;
+    text-decoration: none;
+    color: rgba(174, 198, 217, 0.814);
+    letter-spacing: 4px;
+    font-weight: 900;
+}
+
+.box {
+    border-style: groove;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(113, 120, 132) 97%, rgb(62, 79, 75) 50%, #337aa3 100%);
+    border-color: rgb(132, 148, 158);
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    background-position: center;
+    margin-bottom: 20px;
+}
